@@ -14,8 +14,7 @@ from scipy.misc import imsave, imread
 import cycleGAN_model as model
 
 ## parameters specific to certain data
-DATAPATH = "\\\\hnascifs01.uwhis.hosp.wisc.edu\\einas01\\Groups\\" +  \
-       "PETMR\\deepMRAC_pelvis\\training_data20170927_resliced_augmented_corrected_nii"
+DATAPATH = ""
 A_NAME = "axt2-???.nii"
 B_NAME = "mask-???.nii"
 HEIGHT = 168
